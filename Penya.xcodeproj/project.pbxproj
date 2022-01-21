@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B12C6FE279B456300B4E6B5 /* PenyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */; };
+		9B12C700279B456300B4E6B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C6FF279B456300B4E6B5 /* ContentView.swift */; };
+		9B12C702279B456700B4E6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B12C701279B456700B4E6B5 /* Assets.xcassets */; };
+		9B12C705279B456700B4E6B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B12C704279B456700B4E6B5 /* Preview Assets.xcassets */; };
+		9B12C70F279B456800B4E6B5 /* PenyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C70E279B456800B4E6B5 /* PenyaTests.swift */; };
+		9B12C719279B456800B4E6B5 /* PenyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C718279B456800B4E6B5 /* PenyaUITests.swift */; };
+		9B12C71B279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C71A279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B12C70B279B456800B4E6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B12C6F2279B456300B4E6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B12C6F9279B456300B4E6B5;
+			remoteInfo = Penya;
+		};
+		9B12C715279B456800B4E6B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B12C6F2279B456300B4E6B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B12C6F9279B456300B4E6B5;
+			remoteInfo = Penya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B12C6FA279B456300B4E6B5 /* Penya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaApp.swift; sourceTree = "<group>"; };
+		9B12C6FF279B456300B4E6B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B12C701279B456700B4E6B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B12C704279B456700B4E6B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B12C70A279B456800B4E6B5 /* PenyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B12C70E279B456800B4E6B5 /* PenyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaTests.swift; sourceTree = "<group>"; };
+		9B12C714279B456800B4E6B5 /* PenyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B12C718279B456800B4E6B5 /* PenyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaUITests.swift; sourceTree = "<group>"; };
+		9B12C71A279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B12C6F7279B456300B4E6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B12C707279B456800B4E6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B12C711279B456800B4E6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B12C6F1279B456300B4E6B5 = {
+			isa = PBXGroup;
+			children = (
+				9B12C6FC279B456300B4E6B5 /* Penya */,
+				9B12C70D279B456800B4E6B5 /* PenyaTests */,
+				9B12C717279B456800B4E6B5 /* PenyaUITests */,
+				9B12C6FB279B456300B4E6B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B12C6FB279B456300B4E6B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C6FA279B456300B4E6B5 /* Penya.app */,
+				9B12C70A279B456800B4E6B5 /* PenyaTests.xctest */,
+				9B12C714279B456800B4E6B5 /* PenyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B12C6FC279B456300B4E6B5 /* Penya */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */,
+				9B12C6FF279B456300B4E6B5 /* ContentView.swift */,
+				9B12C701279B456700B4E6B5 /* Assets.xcassets */,
+				9B12C703279B456700B4E6B5 /* Preview Content */,
+			);
+			path = Penya;
+			sourceTree = "<group>";
+		};
+		9B12C703279B456700B4E6B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C704279B456700B4E6B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B12C70D279B456800B4E6B5 /* PenyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C70E279B456800B4E6B5 /* PenyaTests.swift */,
+			);
+			path = PenyaTests;
+			sourceTree = "<group>";
+		};
+		9B12C717279B456800B4E6B5 /* PenyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C718279B456800B4E6B5 /* PenyaUITests.swift */,
+				9B12C71A279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift */,
+			);
+			path = PenyaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B12C6F9279B456300B4E6B5 /* Penya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B12C71E279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "Penya" */;
+			buildPhases = (
+				9B12C6F6279B456300B4E6B5 /* Sources */,
+				9B12C6F7279B456300B4E6B5 /* Frameworks */,
+				9B12C6F8279B456300B4E6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Penya;
+			productName = Penya;
+			productReference = 9B12C6FA279B456300B4E6B5 /* Penya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B12C709279B456800B4E6B5 /* PenyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B12C721279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "PenyaTests" */;
+			buildPhases = (
+				9B12C706279B456800B4E6B5 /* Sources */,
+				9B12C707279B456800B4E6B5 /* Frameworks */,
+				9B12C708279B456800B4E6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B12C70C279B456800B4E6B5 /* PBXTargetDependency */,
+			);
+			name = PenyaTests;
+			productName = PenyaTests;
+			productReference = 9B12C70A279B456800B4E6B5 /* PenyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B12C713279B456800B4E6B5 /* PenyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B12C724279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "PenyaUITests" */;
+			buildPhases = (
+				9B12C710279B456800B4E6B5 /* Sources */,
+				9B12C711279B456800B4E6B5 /* Frameworks */,
+				9B12C712279B456800B4E6B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B12C716279B456800B4E6B5 /* PBXTargetDependency */,
+			);
+			name = PenyaUITests;
+			productName = PenyaUITests;
+			productReference = 9B12C714279B456800B4E6B5 /* PenyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B12C6F2279B456300B4E6B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9B12C6F9279B456300B4E6B5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9B12C709279B456800B4E6B5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9B12C6F9279B456300B4E6B5;
+					};
+					9B12C713279B456800B4E6B5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9B12C6F9279B456300B4E6B5;
+					};
+				};
+			};
+			buildConfigurationList = 9B12C6F5279B456300B4E6B5 /* Build configuration list for PBXProject "Penya" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B12C6F1279B456300B4E6B5;
+			productRefGroup = 9B12C6FB279B456300B4E6B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B12C6F9279B456300B4E6B5 /* Penya */,
+				9B12C709279B456800B4E6B5 /* PenyaTests */,
+				9B12C713279B456800B4E6B5 /* PenyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B12C6F8279B456300B4E6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B12C705279B456700B4E6B5 /* Preview Assets.xcassets in Resources */,
+				9B12C702279B456700B4E6B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B12C708279B456800B4E6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B12C712279B456800B4E6B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B12C6F6279B456300B4E6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B12C700279B456300B4E6B5 /* ContentView.swift in Sources */,
+				9B12C6FE279B456300B4E6B5 /* PenyaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B12C706279B456800B4E6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B12C70F279B456800B4E6B5 /* PenyaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B12C710279B456800B4E6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B12C71B279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift in Sources */,
+				9B12C719279B456800B4E6B5 /* PenyaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B12C70C279B456800B4E6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B12C6F9279B456300B4E6B5 /* Penya */;
+			targetProxy = 9B12C70B279B456800B4E6B5 /* PBXContainerItemProxy */;
+		};
+		9B12C716279B456800B4E6B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B12C6F9279B456300B4E6B5 /* Penya */;
+			targetProxy = 9B12C715279B456800B4E6B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B12C71C279B456800B4E6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B12C71D279B456800B4E6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B12C71F279B456800B4E6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Penya/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AK2PTVW43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coriarty.Penya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B12C720279B456800B4E6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Penya/Preview Content\"";
+				DEVELOPMENT_TEAM = 7AK2PTVW43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coriarty.Penya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B12C722279B456800B4E6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AK2PTVW43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coriarty.PenyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penya.app/Penya";
+			};
+			name = Debug;
+		};
+		9B12C723279B456800B4E6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AK2PTVW43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coriarty.PenyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penya.app/Penya";
+			};
+			name = Release;
+		};
+		9B12C725279B456800B4E6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AK2PTVW43;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coriarty.PenyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Penya;
+			};
+			name = Debug;
+		};
+		9B12C726279B456800B4E6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AK2PTVW43;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coriarty.PenyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Penya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B12C6F5279B456300B4E6B5 /* Build configuration list for PBXProject "Penya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B12C71C279B456800B4E6B5 /* Debug */,
+				9B12C71D279B456800B4E6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B12C71E279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "Penya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B12C71F279B456800B4E6B5 /* Debug */,
+				9B12C720279B456800B4E6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B12C721279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "PenyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B12C722279B456800B4E6B5 /* Debug */,
+				9B12C723279B456800B4E6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B12C724279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "PenyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B12C725279B456800B4E6B5 /* Debug */,
+				9B12C726279B456800B4E6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B12C6F2279B456300B4E6B5 /* Project object */;
+}
