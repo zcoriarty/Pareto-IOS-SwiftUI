@@ -7,6 +7,11 @@ target 'Penya' do
 
   # Pods for Penya
 
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+
+
   target 'PenyaTests' do
     inherit! :search_paths
     # Pods for testing

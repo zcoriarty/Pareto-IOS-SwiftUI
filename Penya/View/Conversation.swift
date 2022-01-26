@@ -73,7 +73,7 @@ struct Conversation: View {
     }
     
     func signOut() {
-         
+        model.signOut()
     }
 }
 

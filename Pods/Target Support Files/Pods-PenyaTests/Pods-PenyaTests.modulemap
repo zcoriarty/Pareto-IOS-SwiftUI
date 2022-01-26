@@ -1,0 +1,6 @@
+framework module Pods_PenyaTests {
+  umbrella header "Pods-PenyaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

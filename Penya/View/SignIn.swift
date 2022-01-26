@@ -29,9 +29,13 @@ struct SignIn: View {
                 VStack {
                     TextField("Username", text: $username)
                         .modifier(CustomField())
+                        .autocapitalization(.none)
+                        .disableAutocorrection(true)
                     
                     SecureField("Password", text: $password)
                         .modifier(CustomField())
+                        .autocapitalization(.none)
+                        .disableAutocorrection(true)
                     
                     Button(action: {
                         self.signIn()
@@ -48,7 +52,7 @@ struct SignIn: View {
                 Spacer()
                 
                 HStack {
-                    Text("New to messenger")
+                    Text("New to Penya?")
                     NavigationLink("Create Account", destination: SignUp())
                 }
             }
