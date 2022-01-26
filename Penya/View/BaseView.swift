@@ -56,10 +56,10 @@ struct BaseView: View {
                             .navigationBarTitleDisplayMode(.inline)
                             .navigationBarHidden(true)
                             .tag("magnifyingglass")
-                        Chat(showMenu: $showMenu)
-                            .navigationBarTitleDisplayMode(.inline)
-                            .navigationBarHidden(true)
-                            .tag("bubble.left.and.bubble.right.fill")
+//                        Chat(showMenu: $showMenu)
+//                            .navigationBarTitleDisplayMode(.inline)
+//                            .navigationBarHidden(true)
+//                            .tag("bubble.left.and.bubble.right.fill")
                         
                         
                     }

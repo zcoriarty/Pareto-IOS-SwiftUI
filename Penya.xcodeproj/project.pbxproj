@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0406B627A0550A007D803F /* GroupInDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406B527A0550A007D803F /* GroupInDepth.swift */; };
+		9B0406C027A055A5007D803F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406BF27A055A5007D803F /* Download.swift */; };
+		9B0406C227A06C6A007D803F /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406C127A06C69007D803F /* LineGraph.swift */; };
+		9B0406C427A0BD97007D803F /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406C327A0BD97007D803F /* Chat.swift */; };
+		9B0406C827A0C60F007D803F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B0406C727A0C60F007D803F /* GoogleService-Info.plist */; };
+		9B0406CB27A0D9BB007D803F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0406CA27A0D9BB007D803F /* FirebaseAnalytics */; };
+		9B0406CD27A0D9BB007D803F /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0406CC27A0D9BB007D803F /* FirebaseAnalyticsSwift-Beta */; };
+		9B0406CF27A0D9BB007D803F /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0406CE27A0D9BB007D803F /* FirebaseFirestoreSwift-Beta */; };
+		9B0406DB27A0EAFC007D803F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406DA27A0EAFC007D803F /* Message.swift */; };
+		9B0406DD27A0EB0D007D803F /* AppStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406DC27A0EB0D007D803F /* AppStateModel.swift */; };
+		9B0406DF27A0EB17007D803F /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406DE27A0EB17007D803F /* SignIn.swift */; };
+		9B0406E127A0EB1F007D803F /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406E027A0EB1F007D803F /* SignUp.swift */; };
+		9B0406E327A0EB2D007D803F /* ChatRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406E227A0EB2D007D803F /* ChatRow.swift */; };
+		9B0406E527A0EB43007D803F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406E427A0EB43007D803F /* Search.swift */; };
+		9B0406E727A0EB4E007D803F /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406E627A0EB4E007D803F /* SendButton.swift */; };
+		9B0406E927A0F1D8007D803F /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406E827A0F1D8007D803F /* Conversation.swift */; };
 		9B12C6FE279B456300B4E6B5 /* PenyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */; };
 		9B12C700279B456300B4E6B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C6FF279B456300B4E6B5 /* ContentView.swift */; };
 		9B12C702279B456700B4E6B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B12C701279B456700B4E6B5 /* Assets.xcassets */; };
@@ -14,6 +30,16 @@
 		9B12C70F279B456800B4E6B5 /* PenyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C70E279B456800B4E6B5 /* PenyaTests.swift */; };
 		9B12C719279B456800B4E6B5 /* PenyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C718279B456800B4E6B5 /* PenyaUITests.swift */; };
 		9B12C71B279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C71A279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift */; };
+		9B12C731279B4A7400B4E6B5 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C730279B4A7400B4E6B5 /* BaseView.swift */; };
+		9B12C733279B4ACA00B4E6B5 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C732279B4ACA00B4E6B5 /* BaseViewModel.swift */; };
+		9B12C735279B55B400B4E6B5 /* CustomCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C734279B55B400B4E6B5 /* CustomCurveShape.swift */; };
+		9B12C737279B77C800B4E6B5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C736279B77C800B4E6B5 /* Home.swift */; };
+		9B12C739279B841400B4E6B5 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12C738279B841300B4E6B5 /* Explore.swift */; };
+		9B47642B279DD0A0002531E8 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47642A279DD0A0002531E8 /* Title.swift */; };
+		9B47642D279E3826002531E8 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47642C279E3826002531E8 /* SideMenu.swift */; };
+		9BF264D7279F51AF00DEF59A /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF264D6279F51AF00DEF59A /* MaterialEffect.swift */; };
+		9BF264D9279F85C100DEF59A /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF264D8279F85C100DEF59A /* Create.swift */; };
+		9BF264DB279F862C00DEF59A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF264DA279F862C00DEF59A /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B0406B527A0550A007D803F /* GroupInDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInDepth.swift; sourceTree = "<group>"; };
+		9B0406BF27A055A5007D803F /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		9B0406C127A06C69007D803F /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		9B0406C327A0BD97007D803F /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		9B0406C727A0C60F007D803F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9B0406DA27A0EAFC007D803F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		9B0406DC27A0EB0D007D803F /* AppStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateModel.swift; sourceTree = "<group>"; };
+		9B0406DE27A0EB17007D803F /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		9B0406E027A0EB1F007D803F /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		9B0406E227A0EB2D007D803F /* ChatRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRow.swift; sourceTree = "<group>"; };
+		9B0406E427A0EB43007D803F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		9B0406E627A0EB4E007D803F /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
+		9B0406E827A0F1D8007D803F /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		9B12C6FA279B456300B4E6B5 /* Penya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaApp.swift; sourceTree = "<group>"; };
 		9B12C6FF279B456300B4E6B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +83,16 @@
 		9B12C714279B456800B4E6B5 /* PenyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PenyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B12C718279B456800B4E6B5 /* PenyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaUITests.swift; sourceTree = "<group>"; };
 		9B12C71A279B456800B4E6B5 /* PenyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B12C730279B4A7400B4E6B5 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		9B12C732279B4ACA00B4E6B5 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		9B12C734279B55B400B4E6B5 /* CustomCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurveShape.swift; sourceTree = "<group>"; };
+		9B12C736279B77C800B4E6B5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9B12C738279B841300B4E6B5 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		9B47642A279DD0A0002531E8 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		9B47642C279E3826002531E8 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		9BF264D6279F51AF00DEF59A /* MaterialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEffect.swift; sourceTree = "<group>"; };
+		9BF264D8279F85C100DEF59A /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		9BF264DA279F862C00DEF59A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0406CF27A0D9BB007D803F /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				9B0406CD27A0D9BB007D803F /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				9B0406CB27A0D9BB007D803F /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +123,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0406BE27A05599007D803F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9B0406BF27A055A5007D803F /* Download.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		9B12C6F1279B456300B4E6B5 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +154,13 @@
 		9B12C6FC279B456300B4E6B5 /* Penya */ = {
 			isa = PBXGroup;
 			children = (
-				9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */,
+				9B0406C727A0C60F007D803F /* GoogleService-Info.plist */,
+				9B12C729279B49AE00B4E6B5 /* ViewModel */,
+				9B12C728279B499A00B4E6B5 /* View */,
+				9B0406BE27A05599007D803F /* Data */,
+				9B12C727279B497800B4E6B5 /* Model */,
 				9B12C6FF279B456300B4E6B5 /* ContentView.swift */,
+				9B12C6FD279B456300B4E6B5 /* PenyaApp.swift */,
 				9B12C701279B456700B4E6B5 /* Assets.xcassets */,
 				9B12C703279B456700B4E6B5 /* Preview Content */,
 			);
@@ -127,6 +192,48 @@
 			path = PenyaUITests;
 			sourceTree = "<group>";
 		};
+		9B12C727279B497800B4E6B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B12C728279B499A00B4E6B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C730279B4A7400B4E6B5 /* BaseView.swift */,
+				9B12C734279B55B400B4E6B5 /* CustomCurveShape.swift */,
+				9B47642A279DD0A0002531E8 /* Title.swift */,
+				9B47642C279E3826002531E8 /* SideMenu.swift */,
+				9B0406E627A0EB4E007D803F /* SendButton.swift */,
+				9B0406C127A06C69007D803F /* LineGraph.swift */,
+				9B0406DE27A0EB17007D803F /* SignIn.swift */,
+				9B0406E027A0EB1F007D803F /* SignUp.swift */,
+				9B0406B527A0550A007D803F /* GroupInDepth.swift */,
+				9B0406E227A0EB2D007D803F /* ChatRow.swift */,
+				9B0406E827A0F1D8007D803F /* Conversation.swift */,
+				9B0406E427A0EB43007D803F /* Search.swift */,
+				9BF264D6279F51AF00DEF59A /* MaterialEffect.swift */,
+				9BF264DA279F862C00DEF59A /* Profile.swift */,
+				9B0406C327A0BD97007D803F /* Chat.swift */,
+				9BF264D8279F85C100DEF59A /* Create.swift */,
+				9B12C736279B77C800B4E6B5 /* Home.swift */,
+				9B12C738279B841300B4E6B5 /* Explore.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B12C729279B49AE00B4E6B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B12C732279B4ACA00B4E6B5 /* BaseViewModel.swift */,
+				9B0406DC27A0EB0D007D803F /* AppStateModel.swift */,
+				9B0406DA27A0EAFC007D803F /* Message.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +250,11 @@
 			dependencies = (
 			);
 			name = Penya;
+			packageProductDependencies = (
+				9B0406CA27A0D9BB007D803F /* FirebaseAnalytics */,
+				9B0406CC27A0D9BB007D803F /* FirebaseAnalyticsSwift-Beta */,
+				9B0406CE27A0D9BB007D803F /* FirebaseFirestoreSwift-Beta */,
+			);
 			productName = Penya;
 			productReference = 9B12C6FA279B456300B4E6B5 /* Penya.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 9B12C6F1279B456300B4E6B5;
+			packageReferences = (
+				9B0406C927A0D9BB007D803F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 9B12C6FB279B456300B4E6B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +348,7 @@
 			files = (
 				9B12C705279B456700B4E6B5 /* Preview Assets.xcassets in Resources */,
 				9B12C702279B456700B4E6B5 /* Assets.xcassets in Resources */,
+				9B0406C827A0C60F007D803F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +373,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0406E927A0F1D8007D803F /* Conversation.swift in Sources */,
+				9B0406E727A0EB4E007D803F /* SendButton.swift in Sources */,
+				9B47642B279DD0A0002531E8 /* Title.swift in Sources */,
 				9B12C700279B456300B4E6B5 /* ContentView.swift in Sources */,
+				9BF264D7279F51AF00DEF59A /* MaterialEffect.swift in Sources */,
+				9B0406DB27A0EAFC007D803F /* Message.swift in Sources */,
+				9BF264DB279F862C00DEF59A /* Profile.swift in Sources */,
+				9B0406C227A06C6A007D803F /* LineGraph.swift in Sources */,
+				9B0406C427A0BD97007D803F /* Chat.swift in Sources */,
+				9BF264D9279F85C100DEF59A /* Create.swift in Sources */,
+				9B0406B627A0550A007D803F /* GroupInDepth.swift in Sources */,
+				9B0406E127A0EB1F007D803F /* SignUp.swift in Sources */,
+				9B12C733279B4ACA00B4E6B5 /* BaseViewModel.swift in Sources */,
+				9B0406E527A0EB43007D803F /* Search.swift in Sources */,
+				9B0406DF27A0EB17007D803F /* SignIn.swift in Sources */,
+				9B47642D279E3826002531E8 /* SideMenu.swift in Sources */,
+				9B0406C027A055A5007D803F /* Download.swift in Sources */,
+				9B12C735279B55B400B4E6B5 /* CustomCurveShape.swift in Sources */,
 				9B12C6FE279B456300B4E6B5 /* PenyaApp.swift in Sources */,
+				9B12C737279B77C800B4E6B5 /* Home.swift in Sources */,
+				9B12C739279B841400B4E6B5 /* Explore.swift in Sources */,
+				9B12C731279B4A7400B4E6B5 /* BaseView.swift in Sources */,
+				9B0406E327A0EB2D007D803F /* ChatRow.swift in Sources */,
+				9B0406DD27A0EB0D007D803F /* AppStateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -605,6 +743,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B0406C927A0D9BB007D803F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B0406CA27A0D9BB007D803F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B0406C927A0D9BB007D803F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		9B0406CC27A0D9BB007D803F /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B0406C927A0D9BB007D803F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		9B0406CE27A0D9BB007D803F /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B0406C927A0D9BB007D803F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B12C6F2279B456300B4E6B5 /* Project object */;
 }

@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct PenyaApp: App {
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()
+            Conversation()
+                .environmentObject(AppStateModel())
         }
     }
 }
+
