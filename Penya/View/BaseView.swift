@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct BaseView: View {
+    
+    @EnvironmentObject var model: AppStateModel
+
     // Menu Option...
     @State var showMenu: Bool = false
 
@@ -47,6 +50,7 @@ struct BaseView: View {
                 VStack(spacing: 0) {
                     
                     TabView(selection: $currentTab) {
+                    
                         
                         Home(showMenu: $showMenu)
                             .navigationBarTitleDisplayMode(.inline)
@@ -56,10 +60,12 @@ struct BaseView: View {
                             .navigationBarTitleDisplayMode(.inline)
                             .navigationBarHidden(true)
                             .tag("magnifyingglass")
-//                        Chat(showMenu: $showMenu)
-//                            .navigationBarTitleDisplayMode(.inline)
-//                            .navigationBarHidden(true)
-//                            .tag("bubble.left.and.bubble.right.fill")
+                        
+                        Conversation(showMenu: $showMenu)
+                            .navigationBarTitleDisplayMode(.inline)
+                            .navigationBarHidden(true)
+                            .tag("bubble.left.and.bubble.right.fill")
+                            
                         
                         
                     }
@@ -114,6 +120,15 @@ struct BaseView: View {
         .navigationBarHidden(true)
             
         }
+        .fullScreenCover(isPresented: $model.showingSignIn, content: {
+            SignIn()
+        })
+        .onAppear {
+            guard model.auth.currentUser != nil else {
+                return
+            }
+            model.getConversations()
+        }
         .animation(.easeOut, value: offset == 0)
         .onChange(of: showMenu) { newValue in
             
@@ -129,6 +144,7 @@ struct BaseView: View {
                 lastStoredOffset = 0
             }
         }
+        
         .onChange(of: gestureOffset) { newValue in
             onChange()
 

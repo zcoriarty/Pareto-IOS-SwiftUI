@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EA52D2CF71B78B1188EB989 /* Pods_Penya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC093D289772E0E9B5B03A8 /* Pods_Penya.framework */; };
-		6B835941D753C1BA1E602418 /* Pods_PenyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602D61219131C6329CE30CE6 /* Pods_PenyaTests.framework */; };
+		08DC9244C094B1DBED93B473 /* Pods_Penya_PenyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0656C3461ADE155CA71F67B /* Pods_Penya_PenyaUITests.framework */; };
+		135FB5200F90B7B84F99147C /* Pods_PenyaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375FF508ADFD177641AE1DA0 /* Pods_PenyaTests.framework */; };
+		546CDD9116F71C2538B08BFB /* Pods_Penya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC25A4EB64B9D2B107548A86 /* Pods_Penya.framework */; };
 		9B0406B627A0550A007D803F /* GroupInDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406B527A0550A007D803F /* GroupInDepth.swift */; };
 		9B0406C027A055A5007D803F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406BF27A055A5007D803F /* Download.swift */; };
 		9B0406C227A06C6A007D803F /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0406C127A06C69007D803F /* LineGraph.swift */; };
@@ -39,7 +40,6 @@
 		9BF264D7279F51AF00DEF59A /* MaterialEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF264D6279F51AF00DEF59A /* MaterialEffect.swift */; };
 		9BF264D9279F85C100DEF59A /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF264D8279F85C100DEF59A /* Create.swift */; };
 		9BF264DB279F862C00DEF59A /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF264DA279F862C00DEF59A /* Profile.swift */; };
-		9F834D8326694BCB53DC6A70 /* Pods_Penya_PenyaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23999CB2BC94A9B64F52E10B /* Pods_Penya_PenyaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B894C329E549424179BAFC8 /* Pods-PenyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenyaTests.release.xcconfig"; path = "Target Support Files/Pods-PenyaTests/Pods-PenyaTests.release.xcconfig"; sourceTree = "<group>"; };
-		12E231B3FFC886D4A6CF6C6D /* Pods-Penya-PenyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya-PenyaUITests.release.xcconfig"; path = "Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests.release.xcconfig"; sourceTree = "<group>"; };
-		23999CB2BC94A9B64F52E10B /* Pods_Penya_PenyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Penya_PenyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FC093D289772E0E9B5B03A8 /* Pods_Penya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Penya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36F3B7E10B3B40C103ED6937 /* Pods-PenyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenyaTests.debug.xcconfig"; path = "Target Support Files/Pods-PenyaTests/Pods-PenyaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		602D61219131C6329CE30CE6 /* Pods_PenyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		800654CD33C1AE26335038C4 /* Pods-Penya-PenyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya-PenyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		375FF508ADFD177641AE1DA0 /* Pods_PenyaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenyaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDCFD1FA294A742F09C23AA /* Pods-Penya-PenyaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya-PenyaUITests.release.xcconfig"; path = "Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		88B896B0669A28281F5110ED /* Pods-PenyaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenyaTests.release.xcconfig"; path = "Target Support Files/Pods-PenyaTests/Pods-PenyaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B26628D554E7D6DFF7B3968 /* Pods-Penya-PenyaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya-PenyaUITests.debug.xcconfig"; path = "Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B0406B527A0550A007D803F /* GroupInDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInDepth.swift; sourceTree = "<group>"; };
 		9B0406BF27A055A5007D803F /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		9B0406C127A06C69007D803F /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
@@ -101,8 +98,11 @@
 		9BF264D6279F51AF00DEF59A /* MaterialEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialEffect.swift; sourceTree = "<group>"; };
 		9BF264D8279F85C100DEF59A /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
 		9BF264DA279F862C00DEF59A /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		B2E585A4AD03A36B8CE2528B /* Pods-Penya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya.debug.xcconfig"; path = "Target Support Files/Pods-Penya/Pods-Penya.debug.xcconfig"; sourceTree = "<group>"; };
-		BDD8E44156AFB826417200AF /* Pods-Penya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya.release.xcconfig"; path = "Target Support Files/Pods-Penya/Pods-Penya.release.xcconfig"; sourceTree = "<group>"; };
+		A267AD0673002BA162B7B263 /* Pods-PenyaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenyaTests.debug.xcconfig"; path = "Target Support Files/Pods-PenyaTests/Pods-PenyaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BCF4F326AA6B221B8669F9 /* Pods-Penya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya.debug.xcconfig"; path = "Target Support Files/Pods-Penya/Pods-Penya.debug.xcconfig"; sourceTree = "<group>"; };
+		DC25A4EB64B9D2B107548A86 /* Pods_Penya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Penya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0656C3461ADE155CA71F67B /* Pods_Penya_PenyaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Penya_PenyaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA289A5A5A95A3B8385DC603 /* Pods-Penya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Penya.release.xcconfig"; path = "Target Support Files/Pods-Penya/Pods-Penya.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA52D2CF71B78B1188EB989 /* Pods_Penya.framework in Frameworks */,
+				546CDD9116F71C2538B08BFB /* Pods_Penya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B835941D753C1BA1E602418 /* Pods_PenyaTests.framework in Frameworks */,
+				135FB5200F90B7B84F99147C /* Pods_PenyaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F834D8326694BCB53DC6A70 /* Pods_Penya_PenyaUITests.framework in Frameworks */,
+				08DC9244C094B1DBED93B473 /* Pods_Penya_PenyaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +136,12 @@
 		10A791E2492242179CA54B07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2E585A4AD03A36B8CE2528B /* Pods-Penya.debug.xcconfig */,
-				BDD8E44156AFB826417200AF /* Pods-Penya.release.xcconfig */,
-				800654CD33C1AE26335038C4 /* Pods-Penya-PenyaUITests.debug.xcconfig */,
-				12E231B3FFC886D4A6CF6C6D /* Pods-Penya-PenyaUITests.release.xcconfig */,
-				36F3B7E10B3B40C103ED6937 /* Pods-PenyaTests.debug.xcconfig */,
-				0B894C329E549424179BAFC8 /* Pods-PenyaTests.release.xcconfig */,
+				D1BCF4F326AA6B221B8669F9 /* Pods-Penya.debug.xcconfig */,
+				EA289A5A5A95A3B8385DC603 /* Pods-Penya.release.xcconfig */,
+				8B26628D554E7D6DFF7B3968 /* Pods-Penya-PenyaUITests.debug.xcconfig */,
+				3EDCFD1FA294A742F09C23AA /* Pods-Penya-PenyaUITests.release.xcconfig */,
+				A267AD0673002BA162B7B263 /* Pods-PenyaTests.debug.xcconfig */,
+				88B896B0669A28281F5110ED /* Pods-PenyaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -161,8 +161,8 @@
 				9B12C70D279B456800B4E6B5 /* PenyaTests */,
 				9B12C717279B456800B4E6B5 /* PenyaUITests */,
 				9B12C6FB279B456300B4E6B5 /* Products */,
-				9BF0171827A2302400E2D365 /* Frameworks */,
 				10A791E2492242179CA54B07 /* Pods */,
+				C4191362ECC7AA355C0383BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -260,12 +260,12 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		9BF0171827A2302400E2D365 /* Frameworks */ = {
+		C4191362ECC7AA355C0383BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FC093D289772E0E9B5B03A8 /* Pods_Penya.framework */,
-				23999CB2BC94A9B64F52E10B /* Pods_Penya_PenyaUITests.framework */,
-				602D61219131C6329CE30CE6 /* Pods_PenyaTests.framework */,
+				DC25A4EB64B9D2B107548A86 /* Pods_Penya.framework */,
+				E0656C3461ADE155CA71F67B /* Pods_Penya_PenyaUITests.framework */,
+				375FF508ADFD177641AE1DA0 /* Pods_PenyaTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -277,11 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B12C71E279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "Penya" */;
 			buildPhases = (
-				BCC23BE57AC21A94476F4BC8 /* [CP] Check Pods Manifest.lock */,
+				3552D5F7901C7F98F4C48C04 /* [CP] Check Pods Manifest.lock */,
 				9B12C6F6279B456300B4E6B5 /* Sources */,
 				9B12C6F7279B456300B4E6B5 /* Frameworks */,
 				9B12C6F8279B456300B4E6B5 /* Resources */,
-				C24CA89A92D72A3283362B34 /* [CP] Embed Pods Frameworks */,
+				7E4B16310935AE226C456161 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,7 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B12C721279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "PenyaTests" */;
 			buildPhases = (
-				29B8A136EF1B7A473F9E4F34 /* [CP] Check Pods Manifest.lock */,
+				F526ED285A1C2B995BC759C9 /* [CP] Check Pods Manifest.lock */,
 				9B12C706279B456800B4E6B5 /* Sources */,
 				9B12C707279B456800B4E6B5 /* Frameworks */,
 				9B12C708279B456800B4E6B5 /* Resources */,
@@ -315,11 +315,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B12C724279B456800B4E6B5 /* Build configuration list for PBXNativeTarget "PenyaUITests" */;
 			buildPhases = (
-				BCCBC037EA0D750C386465E0 /* [CP] Check Pods Manifest.lock */,
+				C513654A772E8AE6E89A9B36 /* [CP] Check Pods Manifest.lock */,
 				9B12C710279B456800B4E6B5 /* Sources */,
 				9B12C711279B456800B4E6B5 /* Frameworks */,
 				9B12C712279B456800B4E6B5 /* Resources */,
-				B5B36FDA0DB78E58B515C7AA /* [CP] Embed Pods Frameworks */,
+				BAA3B01DC1FB201D2F91BE76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -402,46 +402,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		29B8A136EF1B7A473F9E4F34 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PenyaTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B5B36FDA0DB78E58B515C7AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BCC23BE57AC21A94476F4BC8 /* [CP] Check Pods Manifest.lock */ = {
+		3552D5F7901C7F98F4C48C04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -463,7 +424,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCCBC037EA0D750C386465E0 /* [CP] Check Pods Manifest.lock */ = {
+		7E4B16310935AE226C456161 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Penya/Pods-Penya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Penya/Pods-Penya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Penya/Pods-Penya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA3B01DC1FB201D2F91BE76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Penya-PenyaUITests/Pods-Penya-PenyaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C513654A772E8AE6E89A9B36 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -485,21 +480,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C24CA89A92D72A3283362B34 /* [CP] Embed Pods Frameworks */ = {
+		F526ED285A1C2B995BC759C9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Penya/Pods-Penya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Penya/Pods-Penya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenyaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Penya/Pods-Penya-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -689,7 +689,7 @@
 		};
 		9B12C71F279B456800B4E6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2E585A4AD03A36B8CE2528B /* Pods-Penya.debug.xcconfig */;
+			baseConfigurationReference = D1BCF4F326AA6B221B8669F9 /* Pods-Penya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -781,7 +781,7 @@
 		};
 		9B12C720279B456800B4E6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDD8E44156AFB826417200AF /* Pods-Penya.release.xcconfig */;
+			baseConfigurationReference = EA289A5A5A95A3B8385DC603 /* Pods-Penya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -873,7 +873,7 @@
 		};
 		9B12C722279B456800B4E6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36F3B7E10B3B40C103ED6937 /* Pods-PenyaTests.debug.xcconfig */;
+			baseConfigurationReference = A267AD0673002BA162B7B263 /* Pods-PenyaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -899,7 +899,7 @@
 		};
 		9B12C723279B456800B4E6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B894C329E549424179BAFC8 /* Pods-PenyaTests.release.xcconfig */;
+			baseConfigurationReference = 88B896B0669A28281F5110ED /* Pods-PenyaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -925,7 +925,7 @@
 		};
 		9B12C725279B456800B4E6B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 800654CD33C1AE26335038C4 /* Pods-Penya-PenyaUITests.debug.xcconfig */;
+			baseConfigurationReference = 8B26628D554E7D6DFF7B3968 /* Pods-Penya-PenyaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -949,7 +949,7 @@
 		};
 		9B12C726279B456800B4E6B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12E231B3FFC886D4A6CF6C6D /* Pods-Penya-PenyaUITests.release.xcconfig */;
+			baseConfigurationReference = 3EDCFD1FA294A742F09C23AA /* Pods-Penya-PenyaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

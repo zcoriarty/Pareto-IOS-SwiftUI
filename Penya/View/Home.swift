@@ -11,8 +11,6 @@ struct Home: View {
     
     @Binding var showMenu: Bool
     
-    
-    
     @State var index = 0
     @State var columns = Array(repeating: GridItem(.flexible(), spacing: 15), count: 1)
     
@@ -46,7 +44,7 @@ struct Home: View {
                     
                 
             }
-                
+            
         }
         .padding(.horizontal)
         .background(Color("BackgroundGray"))

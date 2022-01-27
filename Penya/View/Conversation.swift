@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct Conversation: View {
-    
+    @Binding var showMenu: Bool
+
     @EnvironmentObject var model: AppStateModel
     @State var otherUsername: String = ""
     @State var showChat = false
     @State var showSearch = false
+
     
     var body: some View {
+//        VStack {
+//            Title(showMenu: $showMenu, topRight: "plus")
+//            Spacer()
+//        }
+//        .padding(.horizontal)
+//        .background(Color("BackgroundGray"))
+        
         NavigationView {
             ScrollView(.vertical) {
                 ForEach(model.conversations, id: \.self) {name in
@@ -28,6 +37,7 @@ struct Conversation: View {
                                     .scaledToFill()
                                     .frame(width: 65, height: 65)
                                     .foregroundColor(Color.pink)
+                                    .background(Color("Primary"))
                                     .clipShape(Circle())
                                 
                                 Text(name)
@@ -48,14 +58,14 @@ struct Conversation: View {
             }
             .navigationTitle("Conversations")
             .toolbar {
+                
+                // move this the the sidemenu
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Sign Out") {
                         self.signOut()
                     }
                 }
-                
-                
-                
+
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(
                         destination: Search{name in
@@ -74,16 +84,7 @@ struct Conversation: View {
                         })
                 }
             }
-            // THIS IS WHERE THE SIGNIN IS PROMPTED, CHANGE PENYA APP TO CONTENTVIEW
-            .fullScreenCover(isPresented: $model.showingSignIn, content: {
-                SignIn()
-            })
-            .onAppear {
-                guard model.auth.currentUser != nil else {
-                    return
-                }
-                model.getConversations()
-            }
+            
         }
     }
     
@@ -94,7 +95,7 @@ struct Conversation: View {
 
 struct Conversation_Previews: PreviewProvider {
     static var previews: some View {
-        Conversation()
+        ContentView()
             .preferredColorScheme(.dark)
     }
 }

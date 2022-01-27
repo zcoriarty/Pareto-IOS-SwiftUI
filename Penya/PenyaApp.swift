@@ -13,8 +13,8 @@ struct PenyaApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate: AppDelegate
     var body: some Scene {
         WindowGroup {
-            // ContentView()
-            Conversation()
+             ContentView()
+//            Conversation()
                 .environmentObject(AppStateModel())
         }
     }

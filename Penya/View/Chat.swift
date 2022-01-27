@@ -50,8 +50,10 @@ struct Chat: View {
                 
                 SendButton(text: $message)
             }
-            .padding()
+            .padding(.vertical, 100)
+            
         }
+        
         .navigationBarTitle(otherUsername, displayMode: .inline)
         .onAppear {
             model.otherUsername = otherUsername
