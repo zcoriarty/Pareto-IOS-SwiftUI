@@ -20,6 +20,7 @@ struct Chat: View {
 //    @Binding var showMenu: Bool
 
     @State var message: String = ""
+    @EnvironmentObject var model: AppStateModel
     let otherUsername: String
     
     init(otherUsername: String) {
@@ -35,10 +36,10 @@ struct Chat: View {
 //        .background(Color("BackgroundGray"))
         VStack {
             ScrollView(.vertical) {
-                ChatRow(text: "hello World", type: .sent)
-                    .padding(3)
-                ChatRow(text: "hello World", type: .received)
-                    .padding(3)
+                ForEach(model.messages, id: \.self) { message in
+                    ChatRow(text: message.text, type: message.type)
+                        .padding(3)
+                }
                 
             }
             
@@ -51,7 +52,11 @@ struct Chat: View {
             }
             .padding()
         }
-        .navigationTitle(otherUsername)
+        .navigationBarTitle(otherUsername, displayMode: .inline)
+        .onAppear {
+            model.otherUsername = otherUsername
+            model.observeChat()
+        }
         
         
         

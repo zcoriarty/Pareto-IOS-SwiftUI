@@ -9,22 +9,26 @@ import SwiftUI
 
 struct Conversation: View {
     
-    let usernames = ["aksdgf", "asdf"]
     @EnvironmentObject var model: AppStateModel
     @State var otherUsername: String = ""
     @State var showChat = false
+    @State var showSearch = false
     
     var body: some View {
         NavigationView {
             ScrollView(.vertical) {
-                ForEach(usernames, id: \.self) {name in
+                ForEach(model.conversations, id: \.self) {name in
                     NavigationLink(
                         destination: Chat(otherUsername: name),
                         label: {
                             HStack {
-                                Circle()
+                                // model.image
+                                Image("")//add a real image to the model
+                                    .resizable()
+                                    .scaledToFill()
                                     .frame(width: 65, height: 65)
                                     .foregroundColor(Color.pink)
+                                    .clipShape(Circle())
                                 
                                 Text(name)
                                     .bold()
@@ -55,11 +59,16 @@ struct Conversation: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(
                         destination: Search{name in
+                            self.showSearch = false
+
                             DispatchQueue.main.asyncAfter(deadline: .now()+1){
                                 self.otherUsername = name
                                 self.showChat = true
+
+
                             }
                         },
+                        isActive: $showSearch,
                         label: {
                             Image(systemName: "magnifyingglass")
                         })
@@ -69,6 +78,12 @@ struct Conversation: View {
             .fullScreenCover(isPresented: $model.showingSignIn, content: {
                 SignIn()
             })
+            .onAppear {
+                guard model.auth.currentUser != nil else {
+                    return
+                }
+                model.getConversations()
+            }
         }
     }
     
