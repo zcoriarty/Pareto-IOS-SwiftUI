@@ -59,14 +59,8 @@ struct Conversation: View {
             .navigationTitle("Conversations")
             .toolbar {
                 
-                // move this the the sidemenu
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button("Sign Out") {
-                        self.signOut()
-                    }
-                }
-
-                ToolbarItem(placement: .navigationBarTrailing) {
+                    
                     NavigationLink(
                         destination: Search{name in
                             self.showSearch = false
@@ -88,9 +82,7 @@ struct Conversation: View {
         }
     }
     
-    func signOut() {
-        model.signOut()
-    }
+    
 }
 
 struct Conversation_Previews: PreviewProvider {

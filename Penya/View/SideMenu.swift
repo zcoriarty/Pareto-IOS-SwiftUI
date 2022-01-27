@@ -11,6 +11,8 @@ struct SideMenu: View {
     
     @Binding var showMenu: Bool
     
+    @EnvironmentObject var model: AppStateModel
+    
     var body: some View {
         
         VStack(alignment: .leading, spacing: 0) {
@@ -93,9 +95,28 @@ struct SideMenu: View {
                     Divider()
                         .padding(.vertical)
                     
-                    TabButton(title: "Logout", image: "arrow.backward.square")
-                        .padding(.horizontal)
-                        .padding(.leading)
+//                    TabButton(title: "Logout", image: "arrow.backward.square")
+//                        .padding(.horizontal)
+//                        .padding(.leading)
+                    Button{
+                        self.signOut()
+                    } label: {
+                        HStack(spacing: 14) {
+                            Image(systemName: "arrow.backward.square")
+                                .resizable()
+                                .renderingMode(.template)
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 22, height: 22)
+                            
+                            Text("Logout")
+                        }
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity,alignment: .leading)
+                        
+                    }
+                    .padding(.horizontal)
+                    .padding(.leading)
+                        
                     
                     Divider()
                         .padding(.vertical)
@@ -114,6 +135,8 @@ struct SideMenu: View {
         )
         .frame(maxWidth: .infinity,alignment: .leading)
     }
+    
+    
     
     @ViewBuilder
     func TabButton(title: String,image: String)->some View{
@@ -141,6 +164,13 @@ struct SideMenu: View {
             .foregroundColor(.white)
             .frame(maxWidth: .infinity,alignment: .leading)
         }
+        
+        
+        
+    }
+    
+    func signOut() {
+        model.signOut()
     }
 }
 
