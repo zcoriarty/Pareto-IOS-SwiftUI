@@ -64,17 +64,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Penya-PenyaUITests.xcscheme</key>
+		<key>Pods-Pareto-ParetoUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Penya.xcscheme</key>
+		<key>Pods-Pareto.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-PenyaTests.xcscheme</key>
+		<key>Pods-ParetoTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

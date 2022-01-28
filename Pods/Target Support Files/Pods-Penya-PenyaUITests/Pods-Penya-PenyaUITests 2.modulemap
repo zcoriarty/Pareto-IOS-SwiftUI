@@ -1,6 +1,0 @@
-framework module Pods_Penya_PenyaUITests {
-  umbrella header "Pods-Penya-PenyaUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
